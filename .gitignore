@@ -1,0 +1,8 @@
+# ICILS microdata must not be committed
+*.sav
+*.zip
+*.parquet
+ICILS2023_farm_drone/
+checkpoint/
+__pycache__/
+.ipynb_checkpoints/
