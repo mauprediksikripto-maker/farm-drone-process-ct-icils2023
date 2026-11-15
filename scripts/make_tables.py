@@ -2,6 +2,7 @@
 
 Usage:  python scripts/make_tables.py   (run from the repository root)
 Output: tables/Table_2.csv ... tables/Table_A4.csv
+(Table 1 lists variable definitions and has no data file.)
 Coefficients carry significance markers (* p < .05, ** p < .01, *** p < .001; |t| >= 1.96, 2.58, 3.29).
 """
 import os
@@ -82,16 +83,16 @@ for lab, an, pr in spec:
     rows.append(r)
 pd.DataFrame(rows).to_csv(os.path.join(OUT, 'Table_4.csv'), index=False)
 
-# Table A.1: by system
+# Table A.4: by system
 p = rd('04_by_system.csv').sort_values('system')
 a1 = pd.DataFrame({'System': p.system, 'n': p.n})
 for k in ['reset_rate', 'fd_time', 'rapid_prop', 'fd_score']:
     a1[f'{LAB[k]} beta (t)'] = [f'{b:.3f} ({t:.2f})' for b, t in zip(p[k], p[k + '_t'])]
-a1.to_csv(os.path.join(OUT, 'Table_A1.csv'), index=False)
+a1.to_csv(os.path.join(OUT, 'Table_A4.csv'), index=False)
 
-# Tables A.2-A.4
-rd('06_sample_by_system.csv').to_csv(os.path.join(OUT, 'Table_A2.csv'), index=False)
-rd('07_rotation_balance.csv').assign(variable=lambda x: x.variable.map(lambda v: LAB.get(v, v))).to_csv(os.path.join(OUT, 'Table_A3.csv'), index=False)
+# Tables A.1-A.3 (sample, rotation balance, robustness)
+rd('06_sample_by_system.csv').to_csv(os.path.join(OUT, 'Table_A1.csv'), index=False)
+rd('07_rotation_balance.csv').assign(variable=lambda x: x.variable.map(lambda v: LAB.get(v, v))).to_csv(os.path.join(OUT, 'Table_A2.csv'), index=False)
 rb = rd('08_robustness_gender_ses.csv')
 rows = []
 for pr in ['reset_rate', 'fd_time', 'rapid_prop', 'n_tasks', 'fd_score', 'second_time', 'female', 'SES']:
@@ -103,5 +104,5 @@ for pr in ['reset_rate', 'fd_time', 'rapid_prop', 'n_tasks', 'fd_score', 'second
     rows.append(r)
 rows.append({'Predictor': 'R2', **{oc: f"{rb[rb.outcome == oc].R2.iloc[0]:.3f}" for oc in ['CT_second_module', 'CIL']}})
 rows.append({'Predictor': 'n', **{oc: int(rb[rb.outcome == oc].n.iloc[0]) for oc in ['CT_second_module', 'CIL']}})
-pd.DataFrame(rows).to_csv(os.path.join(OUT, 'Table_A4.csv'), index=False)
+pd.DataFrame(rows).to_csv(os.path.join(OUT, 'Table_A3.csv'), index=False)
 print('Tables written to', OUT, sorted(os.listdir(OUT)))

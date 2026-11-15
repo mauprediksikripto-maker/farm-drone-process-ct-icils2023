@@ -71,10 +71,10 @@ Results are written to `$ICILS_DIR/ICILS2023_farm_drone/results/`. To regenerate
 | `results/02_descriptives.csv`, `02b_correlations.csv` | Descriptive statistics and correlations | Table 2 |
 | `results/03_stepwise_models.csv` | Models M0–M3 for both outcomes, with R² | Table 3, Figure 2 |
 | `results/05_exploratory.csv` | Interaction, task-group, and tertile models | Table 4, Figure 3 |
-| `results/04_by_system.csv` | Model M2 by education system | Figure 4, Table A.1 |
-| `results/06_sample_by_system.csv` | Schools, students, and distribution of the second module | Table A.2 |
-| `results/07_rotation_balance.csv` | Balance of student characteristics across the assigned second module | Table A.3 |
-| `results/08_robustness_gender_ses.csv` | M2 with gender, SES, and second-module fixed effects | Table A.4 |
+| `results/04_by_system.csv` | Model M2 by education system | Figure 4, Table A.4 |
+| `results/06_sample_by_system.csv` | Schools, students, and distribution of the second module | Table A.1 |
+| `results/07_rotation_balance.csv` | Balance of student characteristics across the assigned second module | Table A.2 |
+| `results/08_robustness_gender_ses.csv` | M2 with gender, SES, and second-module fixed effects | Table A.3 |
 
 Coefficients are SD changes in the outcome per SD of the predictor. `t` = coefficient / SE. Outcome labels: `CT_second_module` (primary), `CIL` (discriminant).
 
