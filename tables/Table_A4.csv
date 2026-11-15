@@ -1,0 +1,11 @@
+Predictor,CT_second_module,CIL
+Reset rate,-0.068*** (0.012),-0.023 (0.018)
+Farm Drone time,-0.097*** (0.024),0.054 (0.034)
+Rapid responses,-0.064** (0.022),-0.050 (0.030)
+Tasks attempted,0.016 (0.016),0.065*** (0.015)
+Farm Drone score,0.475*** (0.012),0.485*** (0.017)
+Second-module time,0.316*** (0.015),0.172*** (0.022)
+Female,0.014 (0.011),0.116*** (0.013)
+Socio-economic background (IISB),0.056*** (0.013),0.120*** (0.016)
+R2,0.451,0.528
+n,32814,32814

@@ -1,0 +1,21 @@
+predictor,coef,SE,R2,R2_country_FE_only,t,n,model,outcome
+n_tasks,0.016,0.016,0.451,0.035,0.961,32814,ROB,CT_second_module
+fd_time,-0.097,0.024,0.451,0.035,-4.055,32814,ROB,CT_second_module
+reset_rate,-0.068,0.012,0.451,0.035,-5.712,32814,ROB,CT_second_module
+rapid_prop,-0.064,0.022,0.451,0.035,-2.952,32814,ROB,CT_second_module
+fd_score,0.475,0.012,0.451,0.035,38.284,32814,ROB,CT_second_module
+second_time,0.316,0.015,0.451,0.035,21.251,32814,ROB,CT_second_module
+female,0.014,0.011,0.451,0.035,1.212,32814,ROB,CT_second_module
+SES,0.056,0.013,0.451,0.035,4.219,32814,ROB,CT_second_module
+mod_Automated Bus,-0.07,0.011,0.451,0.035,-6.511,32814,ROB,CT_second_module
+mod_Suns and Moons,-0.057,0.011,0.451,0.035,-4.961,32814,ROB,CT_second_module
+n_tasks,0.065,0.015,0.528,0.05,4.179,32814,ROB,CIL
+fd_time,0.054,0.034,0.528,0.05,1.612,32814,ROB,CIL
+reset_rate,-0.023,0.018,0.528,0.05,-1.277,32814,ROB,CIL
+rapid_prop,-0.05,0.03,0.528,0.05,-1.661,32814,ROB,CIL
+fd_score,0.485,0.017,0.528,0.05,28.855,32814,ROB,CIL
+second_time,0.172,0.022,0.528,0.05,7.676,32814,ROB,CIL
+female,0.116,0.013,0.528,0.05,8.697,32814,ROB,CIL
+SES,0.12,0.016,0.528,0.05,7.38,32814,ROB,CIL
+mod_Automated Bus,-0.014,0.014,0.528,0.05,-0.991,32814,ROB,CIL
+mod_Suns and Moons,-0.029,0.015,0.528,0.05,-1.912,32814,ROB,CIL

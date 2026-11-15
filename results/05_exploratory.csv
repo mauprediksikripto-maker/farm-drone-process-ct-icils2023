@@ -1,0 +1,67 @@
+predictor,coef,SE,t,n,analysis,outcome
+n_tasks,0.018,0.013,1.393,40078,a. M2 + reset x Farm Drone score,CT_second_module
+fd_time,-0.068,0.027,-2.526,40078,a. M2 + reset x Farm Drone score,CT_second_module
+reset_rate,-0.057,0.012,-4.556,40078,a. M2 + reset x Farm Drone score,CT_second_module
+rapid_prop,-0.061,0.022,-2.768,40078,a. M2 + reset x Farm Drone score,CT_second_module
+fd_score,0.494,0.012,42.12,40078,a. M2 + reset x Farm Drone score,CT_second_module
+second_time,0.31,0.016,19.155,40078,a. M2 + reset x Farm Drone score,CT_second_module
+reset_x_score,0.036,0.013,2.771,40078,a. M2 + reset x Farm Drone score,CT_second_module
+n_tasks,0.044,0.014,3.232,38473,b. reset rate by task group,CT_second_module
+fd_time,-0.061,0.023,-2.713,38473,b. reset rate by task group,CT_second_module
+rapid_prop,-0.068,0.022,-3.087,38473,b. reset rate by task group,CT_second_module
+fd_score,0.477,0.011,43.607,38473,b. reset rate by task group,CT_second_module
+second_time,0.289,0.015,19.323,38473,b. reset rate by task group,CT_second_module
+reset_building,-0.057,0.011,-5.346,38473,b. reset rate by task group,CT_second_module
+reset_basic,-0.044,0.01,-4.468,38473,b. reset rate by task group,CT_second_module
+reset_debugging,0.018,0.014,1.302,38473,b. reset rate by task group,CT_second_module
+n_tasks,0.004,0.022,0.179,13359,c. Farm Drone score tertile: low,CT_second_module
+fd_time,0.064,0.039,1.634,13359,c. Farm Drone score tertile: low,CT_second_module
+reset_rate,-0.062,0.019,-3.159,13359,c. Farm Drone score tertile: low,CT_second_module
+rapid_prop,0.057,0.033,1.731,13359,c. Farm Drone score tertile: low,CT_second_module
+fd_score,0.172,0.026,6.599,13359,c. Farm Drone score tertile: low,CT_second_module
+second_time,0.207,0.023,9.096,13359,c. Farm Drone score tertile: low,CT_second_module
+n_tasks,0.029,0.023,1.222,13359,c. Farm Drone score tertile: middle,CT_second_module
+fd_time,-0.045,0.031,-1.451,13359,c. Farm Drone score tertile: middle,CT_second_module
+reset_rate,-0.031,0.021,-1.466,13359,c. Farm Drone score tertile: middle,CT_second_module
+rapid_prop,-0.065,0.03,-2.168,13359,c. Farm Drone score tertile: middle,CT_second_module
+fd_score,0.12,0.018,6.61,13359,c. Farm Drone score tertile: middle,CT_second_module
+second_time,0.328,0.017,18.921,13359,c. Farm Drone score tertile: middle,CT_second_module
+n_tasks,0.035,0.011,3.133,13360,c. Farm Drone score tertile: high,CT_second_module
+fd_time,-0.129,0.04,-3.238,13360,c. Farm Drone score tertile: high,CT_second_module
+reset_rate,-0.004,0.024,-0.16,13360,c. Farm Drone score tertile: high,CT_second_module
+rapid_prop,-0.206,0.033,-6.213,13360,c. Farm Drone score tertile: high,CT_second_module
+fd_score,0.225,0.021,10.628,13360,c. Farm Drone score tertile: high,CT_second_module
+second_time,0.322,0.024,13.604,13360,c. Farm Drone score tertile: high,CT_second_module
+n_tasks,0.103,0.026,3.968,40078,a. M2 + reset x Farm Drone score,CIL
+fd_time,0.067,0.035,1.93,40078,a. M2 + reset x Farm Drone score,CIL
+reset_rate,0.001,0.017,0.083,40078,a. M2 + reset x Farm Drone score,CIL
+rapid_prop,-0.039,0.032,-1.234,40078,a. M2 + reset x Farm Drone score,CIL
+fd_score,0.502,0.02,25.193,40078,a. M2 + reset x Farm Drone score,CIL
+second_time,0.207,0.02,10.221,40078,a. M2 + reset x Farm Drone score,CIL
+reset_x_score,0.032,0.017,1.869,40078,a. M2 + reset x Farm Drone score,CIL
+n_tasks,0.092,0.01,8.827,38473,b. reset rate by task group,CIL
+fd_time,0.055,0.029,1.88,38473,b. reset rate by task group,CIL
+rapid_prop,-0.053,0.026,-2.053,38473,b. reset rate by task group,CIL
+fd_score,0.485,0.019,25.772,38473,b. reset rate by task group,CIL
+second_time,0.175,0.018,9.438,38473,b. reset rate by task group,CIL
+reset_building,-0.006,0.015,-0.406,38473,b. reset rate by task group,CIL
+reset_basic,-0.033,0.015,-2.172,38473,b. reset rate by task group,CIL
+reset_debugging,0.015,0.021,0.72,38473,b. reset rate by task group,CIL
+n_tasks,0.081,0.031,2.583,13359,c. Farm Drone score tertile: low,CIL
+fd_time,0.075,0.06,1.263,13359,c. Farm Drone score tertile: low,CIL
+reset_rate,-0.058,0.034,-1.73,13359,c. Farm Drone score tertile: low,CIL
+rapid_prop,-0.003,0.049,-0.054,13359,c. Farm Drone score tertile: low,CIL
+fd_score,0.324,0.038,8.493,13359,c. Farm Drone score tertile: low,CIL
+second_time,0.24,0.037,6.497,13359,c. Farm Drone score tertile: low,CIL
+n_tasks,0.088,0.029,3.007,13359,c. Farm Drone score tertile: middle,CIL
+fd_time,0.031,0.05,0.623,13359,c. Farm Drone score tertile: middle,CIL
+reset_rate,0.009,0.02,0.447,13359,c. Farm Drone score tertile: middle,CIL
+rapid_prop,-0.088,0.049,-1.788,13359,c. Farm Drone score tertile: middle,CIL
+fd_score,0.143,0.018,8.004,13359,c. Farm Drone score tertile: middle,CIL
+second_time,0.181,0.027,6.808,13359,c. Farm Drone score tertile: middle,CIL
+n_tasks,0.142,0.039,3.593,13360,c. Farm Drone score tertile: high,CIL
+fd_time,-0.062,0.044,-1.414,13360,c. Farm Drone score tertile: high,CIL
+reset_rate,0.043,0.023,1.875,13360,c. Farm Drone score tertile: high,CIL
+rapid_prop,-0.159,0.047,-3.37,13360,c. Farm Drone score tertile: high,CIL
+fd_score,0.171,0.02,8.427,13360,c. Farm Drone score tertile: high,CIL
+second_time,0.152,0.023,6.515,13360,c. Farm Drone score tertile: high,CIL

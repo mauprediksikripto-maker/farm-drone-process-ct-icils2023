@@ -1,0 +1,167 @@
+var,label,module,task,code,suffix,role
+T3T01Z_S,Number of correctly ordered functions,Activity Tracker,1,Z,S,score
+T3T02Z_S,Sensor simulation,Activity Tracker,2,Z,S,score
+T3T03Z_S,Number of correct rows and efficiency,Activity Tracker,3,Z,S,score
+T3T04Z_S,TTAM variable target value and solution method,Activity Tracker,4,Z,S,score
+T3T05B_S,TTAH variable target value,Activity Tracker,5,B,S,score
+T3T06Z_S,Number of correct labels,Activity Tracker,6,Z,S,score
+T3T07Z_S,Correct messages,Activity Tracker,7,Z,S,score
+T2A01Z_S,Directions,Automated Bus,1,Z,S,score
+T2A02Z_S,Route,Automated Bus,2,Z,S,score
+T2A03Z_S,Fastest route,Automated Bus,3,Z,S,score
+T2A04Z_S,Abstracted diagram,Automated Bus,4,Z,S,score
+T3A05Z_S,Flowchart,Automated Bus,5,Z,S,score
+T3A06Z_S,Simulation - distance,Automated Bus,6,Z,S,score
+T3A07Z_S,Simulation strategy,Automated Bus,7,Z,S,score
+T3A08Z_S,Simulation explanation,Automated Bus,8,Z,S,score
+T2F01E_S,Follow instructions,Farm Drone,1,E,S,score
+T2F02L_S,Simple algorithm,Farm Drone,2,L,S,score
+T2F03TEC_S,Debug repeat statement,Farm Drone,3,TEC,S,score
+T3F04TEC_S,Create repeat statement,Farm Drone,4,TEC,S,score
+T2F05TEC_S,Create complex repeat statement,Farm Drone,5,TEC,S,score
+T3F06TEC_S,Debug if statement,Farm Drone,6,TEC,S,score
+T2F07TEC_S,Repeat if statement,Farm Drone,7,TEC,S,score
+T2F08TEC_S,Debug an algorithm with multiple repeat statements,Farm Drone,8,TEC,S,score
+T2F09T_S,Configure a simulation,Farm Drone,9,T,S,score
+T3S01Z_S,Number of correctly ordered rules,Suns and Moons,1,Z,S,score
+T3S02Z_S,Decision tree logic and accuracy,Suns and Moons,2,Z,S,score
+T3S03Z_S,Number of valid sets,Suns and Moons,3,Z,S,score
+T3S04Z_S,Connections and commands,Suns and Moons,4,Z,S,score
+T3S05Z_S,Correctly adjusted coordinates,Suns and Moons,5,Z,S,score
+T3S06Z_S,Player switching correctly implemented,Suns and Moons,6,Z,S,score
+T3S07Z_S,Evaluates game rule implementation,Suns and Moons,7,Z,S,score
+T2A01ZA_P,Directions,Automated Bus,1,ZA,P,product/other (not used)
+T2A02AA_P,Route nodes,Automated Bus,2,AA,P,product/other (not used)
+T2A02BA_P,Route connections,Automated Bus,2,BA,P,product/other (not used)
+T2A02CA_P,Route goal,Automated Bus,2,CA,P,product/other (not used)
+T2A02ZA_P,Route,Automated Bus,2,ZA,P,product/other (not used)
+T2A04ZM_P,Abstracted diagram,Automated Bus,4,ZM,P,product/other (not used)
+T3A05ZA_P,Flowchart,Automated Bus,5,ZA,P,product/other (not used)
+T3A06AA_P,Simulation - flowchart,Automated Bus,6,AA,P,product/other (not used)
+T3A06BA_P,Simulation - distance,Automated Bus,6,BA,P,product/other (not used)
+T3A06ZA_P,Simulation - distance,Automated Bus,6,ZA,P,product/other (not used)
+T2F01AA_P,Commands,Farm Drone,1,AA,P,product/other (not used)
+T2F01BA_P,Resets,Farm Drone,1,BA,P,process: reset
+T2F01CA_P,Goal,Farm Drone,1,CA,P,product/other (not used)
+T2F01ZY_P,Student Coordinates 1,Farm Drone,1,ZY,P,product/other (not used)
+T2F02AA_P,Commands,Farm Drone,2,AA,P,product/other (not used)
+T2F02BA_P,Resets,Farm Drone,2,BA,P,process: reset
+T2F02CA_P,Goal,Farm Drone,2,CA,P,product/other (not used)
+T2F02ZY_P,Student Coordinates 2,Farm Drone,2,ZY,P,product/other (not used)
+T2F03AA_P,Commands,Farm Drone,3,AA,P,product/other (not used)
+T2F03BA_P,Resets,Farm Drone,3,BA,P,process: reset
+T2F03DA_P,Grass tile with water added,Farm Drone,3,DA,P,product/other (not used)
+T2F03EA_P,Grass tile with seed added,Farm Drone,3,EA,P,product/other (not used)
+T2F03FA_P,Grass tile with fertilizer added,Farm Drone,3,FA,P,product/other (not used)
+T2F03GA_P,Dirt tile with water added,Farm Drone,3,GA,P,product/other (not used)
+T2F03HA_P,Dirt tile with seed added,Farm Drone,3,HA,P,product/other (not used)
+T2F03IA_P,Dirt tile with fertilizer added,Farm Drone,3,IA,P,product/other (not used)
+T2F03WA_P,Irrelevant targets,Farm Drone,3,WA,P,product/other (not used)
+T2F03XA_P,Targets and material,Farm Drone,3,XA,P,product/other (not used)
+T2F03ZA_P,Algorithm,Farm Drone,3,ZA,P,product/other (not used)
+T3F04AA_P,Commands,Farm Drone,4,AA,P,product/other (not used)
+T3F04BA_P,Resets,Farm Drone,4,BA,P,process: reset
+T3F04DA_P,Grass tile with water added,Farm Drone,4,DA,P,product/other (not used)
+T3F04EA_P,Grass tile with seed added,Farm Drone,4,EA,P,product/other (not used)
+T3F04FA_P,Grass tile with fertilizer added,Farm Drone,4,FA,P,product/other (not used)
+T3F04JA_P,Seeded dirt tile with water added,Farm Drone,4,JA,P,product/other (not used)
+T3F04KA_P,Seeded dirt tile with seed added,Farm Drone,4,KA,P,product/other (not used)
+T3F04LA_P,Seeded dirt tile with fertilizer added,Farm Drone,4,LA,P,product/other (not used)
+T3F04WA_P,Irrelevant targets,Farm Drone,4,WA,P,product/other (not used)
+T3F04XA_P,Targets and material,Farm Drone,4,XA,P,product/other (not used)
+T3F04ZA_P,Algorithm,Farm Drone,4,ZA,P,product/other (not used)
+T2F05AA_P,Commands,Farm Drone,5,AA,P,product/other (not used)
+T2F05BA_P,Resets,Farm Drone,5,BA,P,process: reset
+T2F05DA_P,Grass tile with water added,Farm Drone,5,DA,P,product/other (not used)
+T2F05EA_P,Grass tile with seed added,Farm Drone,5,EA,P,product/other (not used)
+T2F05FA_P,Grass tile with fertilizer added,Farm Drone,5,FA,P,product/other (not used)
+T2F05GA_P,Dirt tile with water added,Farm Drone,5,GA,P,product/other (not used)
+T2F05HA_P,Dirt tile with seed added,Farm Drone,5,HA,P,product/other (not used)
+T2F05IA_P,Dirt tile with fertilizer added,Farm Drone,5,IA,P,product/other (not used)
+T2F05MA_P,Small crop tile with water added,Farm Drone,5,MA,P,product/other (not used)
+T2F05NA_P,Small crop tile with seed added,Farm Drone,5,NA,P,product/other (not used)
+T2F05OA_P,Small crop tile with fertilizer added,Farm Drone,5,OA,P,product/other (not used)
+T2F05WA_P,Irrelevant targets,Farm Drone,5,WA,P,product/other (not used)
+T2F05XA_P,Targets and material,Farm Drone,5,XA,P,product/other (not used)
+T2F05ZA_P,Algorithm,Farm Drone,5,ZA,P,product/other (not used)
+T3F06AA_P,Commands,Farm Drone,6,AA,P,product/other (not used)
+T3F06BA_P,Resets,Farm Drone,6,BA,P,process: reset
+T3F06DA_P,Grass tile with water added,Farm Drone,6,DA,P,product/other (not used)
+T3F06EA_P,Grass tile with seed added,Farm Drone,6,EA,P,product/other (not used)
+T3F06FA_P,Grass tile with fertilizer added,Farm Drone,6,FA,P,product/other (not used)
+T3F06MA_P,Small crop tile with water added,Farm Drone,6,MA,P,product/other (not used)
+T3F06NA_P,Small crop tile with seed added,Farm Drone,6,NA,P,product/other (not used)
+T3F06OA_P,Small crop tile with fertilizer added,Farm Drone,6,OA,P,product/other (not used)
+T3F06PA_P,Large crop tile with water added,Farm Drone,6,PA,P,product/other (not used)
+T3F06QA_P,Large crop tile with seed added,Farm Drone,6,QA,P,product/other (not used)
+T3F06RA_P,Large crop tile with fertilizer added,Farm Drone,6,RA,P,product/other (not used)
+T3F06WA_P,Irrelevant targets,Farm Drone,6,WA,P,product/other (not used)
+T3F06XA_P,Targets and material,Farm Drone,6,XA,P,product/other (not used)
+T3F06ZA_P,Algorithm,Farm Drone,6,ZA,P,product/other (not used)
+T2F07AA_P,Commands,Farm Drone,7,AA,P,product/other (not used)
+T2F07BA_P,Resets,Farm Drone,7,BA,P,process: reset
+T2F07DA_P,Grass tile with water added,Farm Drone,7,DA,P,product/other (not used)
+T2F07EA_P,Grass tile with seed added,Farm Drone,7,EA,P,product/other (not used)
+T2F07FA_P,Grass tile with fertilizer added,Farm Drone,7,FA,P,product/other (not used)
+T2F07MA_P,Small crop tile with water added,Farm Drone,7,MA,P,product/other (not used)
+T2F07NA_P,Small crop tile with seed added,Farm Drone,7,NA,P,product/other (not used)
+T2F07OA_P,Small crop tile with fertilizer added,Farm Drone,7,OA,P,product/other (not used)
+T2F07PA_P,Large crop tile with water added,Farm Drone,7,PA,P,product/other (not used)
+T2F07QA_P,Large crop tile with seed added,Farm Drone,7,QA,P,product/other (not used)
+T2F07RA_P,Large crop tile with fertilizer added,Farm Drone,7,RA,P,product/other (not used)
+T2F07WA_P,Irrelevant targets,Farm Drone,7,WA,P,product/other (not used)
+T2F07XA_P,Targets and material,Farm Drone,7,XA,P,product/other (not used)
+T2F07ZA_P,Algorithm,Farm Drone,7,ZA,P,product/other (not used)
+T2F08AA_P,Commands,Farm Drone,8,AA,P,product/other (not used)
+T2F08BA_P,Resets,Farm Drone,8,BA,P,process: reset
+T2F08EA_P,Grass tile with seed added,Farm Drone,8,EA,P,product/other (not used)
+T2F08FA_P,Grass tile with fertilizer added,Farm Drone,8,FA,P,product/other (not used)
+T2F08ZA_P,Algorithm,Farm Drone,8,ZA,P,product/other (not used)
+T2F08DA_P,Grass tile with water added,Farm Drone,8,DA,P,product/other (not used)
+T2F08PA_P,Large crop tile with water added,Farm Drone,8,PA,P,product/other (not used)
+T2F08QA_P,Large crop tile with seed added,Farm Drone,8,QA,P,product/other (not used)
+T2F08RA_P,Large crop tile with fertilizer added,Farm Drone,8,RA,P,product/other (not used)
+T2F08WA_P,Irrelevant targets,Farm Drone,8,WA,P,product/other (not used)
+T2F08XA_P,Targets and material,Farm Drone,8,XA,P,product/other (not used)
+T2F09PA_P,Large crop tile with water added,Farm Drone,9,PA,P,product/other (not used)
+T2A01_T,Automated Bus - Timing Task 01,Automated Bus,1,,T,process: time
+T2A02_T,Automated Bus - Timing Task 02,Automated Bus,2,,T,process: time
+T2A03_T,Automated Bus - Timing Task 03,Automated Bus,3,,T,process: time
+T2A04_T,Automated Bus - Timing Task 04,Automated Bus,4,,T,process: time
+T2A05_T,Automated Bus - Timing Task 05,Automated Bus,5,,T,process: time
+T2A06_T,Automated Bus - Timing Task 06,Automated Bus,6,,T,process: time
+T2A07_T,Automated Bus - Timing Task 07,Automated Bus,7,,T,process: time
+T2A08_T,Automated Bus - Timing Task 08,Automated Bus,8,,T,process: time
+T2F01_T,Farm Drone - Timing Task 01,Farm Drone,1,,T,process: time
+T2F02_T,Farm Drone - Timing Task 02,Farm Drone,2,,T,process: time
+T2F03_T,Farm Drone - Timing Task 03,Farm Drone,3,,T,process: time
+T2F04_T,Farm Drone - Timing Task 04,Farm Drone,4,,T,process: time
+T2F05_T,Farm Drone - Timing Task 05,Farm Drone,5,,T,process: time
+T2F06_T,Farm Drone - Timing Task 06,Farm Drone,6,,T,process: time
+T2F07_T,Farm Drone - Timing Task 07,Farm Drone,7,,T,process: time
+T2F08_T,Farm Drone - Timing Task 08,Farm Drone,8,,T,process: time
+T2F09_T,Farm Drone - Timing Task 09,Farm Drone,9,,T,process: time
+T3T01_T,Activity Tracker - Timing Task 01,Activity Tracker,1,,T,process: time
+T3T02_T,Activity Tracker - Timing Task 02,Activity Tracker,2,,T,process: time
+T3T03_T,Activity Tracker - Timing Task 03,Activity Tracker,3,,T,process: time
+T3T04_T,Activity Tracker - Timing Task 04,Activity Tracker,4,,T,process: time
+T3T05_T,Activity Tracker - Timing Task 05,Activity Tracker,5,,T,process: time
+T3T06_T,Activity Tracker - Timing Task 06,Activity Tracker,6,,T,process: time
+T3T07_T,Activity Tracker - Timing Task 07,Activity Tracker,7,,T,process: time
+T3S01_T,Suns and Moons - Timing Task 01,Suns and Moons,1,,T,process: time
+T3S02_T,Suns and Moons - Timing Task 02,Suns and Moons,2,,T,process: time
+T3S03_T,Suns and Moons - Timing Task 03,Suns and Moons,3,,T,process: time
+T3S04_T,Suns and Moons - Timing Task 04,Suns and Moons,4,,T,process: time
+T3S05_T,Suns and Moons - Timing Task 05,Suns and Moons,5,,T,process: time
+T3S06_T,Suns and Moons - Timing Task 06,Suns and Moons,6,,T,process: time
+T3S07_T,Suns and Moons - Timing Task 07,Suns and Moons,7,,T,process: time
+PV1CIL,plausible value,PV,0,,,plausible value
+PV2CIL,plausible value,PV,0,,,plausible value
+PV3CIL,plausible value,PV,0,,,plausible value
+PV4CIL,plausible value,PV,0,,,plausible value
+PV5CIL,plausible value,PV,0,,,plausible value
+PV1CT,plausible value,PV,0,,,plausible value
+PV2CT,plausible value,PV,0,,,plausible value
+PV3CT,plausible value,PV,0,,,plausible value
+PV4CT,plausible value,PV,0,,,plausible value
+PV5CT,plausible value,PV,0,,,plausible value
